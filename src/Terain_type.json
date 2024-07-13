@@ -1,0 +1,526 @@
+[
+	{
+		"Name": "water",
+		"Point": {
+			"X": 1,
+			"Y": 6
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water",
+				"water_w",
+				"water_island_ne",
+				"water_island_se"
+			],
+			"right": [
+				"water",
+				"water_e",
+				"water_island_nw",
+				"water_island_sw"
+			],
+			"down": [
+				"water",
+				"water_s",
+				"water_island_ne",
+				"water_island_nw"
+			],
+			"up": [
+				"water",
+				"water_n",
+				"water_island_se",
+				"water_island_sw"
+			]
+		}
+	},
+	{
+		"Name": "water_n",
+		"Point": {
+			"X": 1,
+			"Y": 5
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water_nw",
+				"water_island_sw",
+				"water_n"
+			],
+			"right": [
+				"water_ne",
+				"water_island_se",
+				"water_n"
+			],
+			"down": [
+				"water",
+				"water_s",
+				"water_island_ne",
+				"water_island_nw"
+			],
+			"up": [
+				"grass",
+				"water_s",
+				"water_sw",
+				"water_se"
+			]
+		}
+	},
+	{
+		"Name": "water_nw",
+		"Point": {
+			"X": 0,
+			"Y": 5
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"grass",
+				"water_e",
+				"water_ne",
+				"water_se"
+			],
+			"right": [
+				"water_n",
+				"water_island_se",
+				"water_ne"
+			],
+			"down": [
+				"water_w",
+				"water_island_se",
+				"water_sw"
+			],
+			"up": [
+				"grass",
+				"water_s",
+				"water_sw",
+				"water_se"
+			]
+		}
+	},
+	{
+		"Name": "water_w",
+		"Point": {
+			"X": 0,
+			"Y": 6
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"grass",
+				"water_e",
+				"water_ne",
+				"water_se"
+			],
+			"right": [
+				"water",
+				"water_e",
+				"water_island_nw",
+				"water_island_sw"
+
+			],
+			"down": [
+				"water_sw",
+				"water_island_se",
+				"water_w"
+			],
+			"up": [
+				"water_nw",
+				"water_island_ne",
+				"water_w"
+			]
+		}
+	},
+	{
+		"Name": "water_sw",
+		"Point": {
+			"X": 0,
+			"Y": 7
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"grass",
+				"water_e",
+				"water_ne",
+				"water_ne"
+			],
+			"right": [
+				"water_s",
+				"water_island_ne",
+				"water_se"
+			],
+			"down": [
+				"grass",
+				"water_n",
+				"water_nw",
+				"water_ne"
+			],
+			"up": [
+				"water_w",
+				"water_island_ne",
+				"water_nw"
+			]
+		}
+	},
+	{
+		"Name": "water_s",
+		"Point": {
+			"X": 1,
+			"Y": 7
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water_sw",
+				"water_island_nw",
+				"water_s"
+			],
+			"right": [
+				"water_se",
+				"water_island_ne",
+				"water_s"
+			],
+			"down": [
+				"grass",
+				"water_n",
+				"water_nw",
+				"water_ne"
+			],
+			"up": [
+				"water",
+				"water_n",
+				"water_island_se",
+				"water_island_sw"
+			]
+		}
+	},
+	{
+		"Name": "water_se",
+		"Point": {
+			"X": 2,
+			"Y": 7
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water_s",
+				"water_island_nw",
+				"water_sw"
+			],
+			"right": [
+				"grass",
+				"water_w",
+				"water_nw",
+				"water_nw"
+			],
+			"down": [
+				"grass",
+				"water_n",
+				"water_ne",
+				"water_nw"
+			],
+			"up": [
+				"water_e",
+				"water_island_nw",
+				"water_ne"
+			]
+		}
+	},
+	{
+		"Name": "water_e",
+		"Point": {
+			"X": 2,
+			"Y": 6
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water",
+				"water_w",
+				"water_island_ne",
+				"water_island_se"
+			],
+			"right": [
+				"grass",
+				"water_w",
+				"water_nw",
+				"water_nw"
+			],
+			"down": [
+				"water_se",
+				"water_island_sw",
+				"water_e"
+			],
+			"up": [
+				"water_ne",
+				"water_island_nw",
+				"water_e"
+			]
+		}
+	},
+	{
+		"Name": "water_ne",
+		"Point": {
+			"X": 2,
+			"Y": 5
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water_n",
+				"water_island_sw",
+				"water_nw"
+			],
+			"right": [
+				"grass"
+			],
+			"down": [
+				"water_e",
+				"water_island_sw",
+				"water_se"
+			],
+			"up": [
+				"grass",
+				"water_s",
+				"water_sw",
+				"water_se"
+			]
+		}
+	},
+	{
+		"Name": "water_island_nw",
+		"Point": {
+			"X": 3,
+			"Y": 5
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water",
+				"water_w",
+				"water_island_se",
+				"water_island_ne"
+			],
+			"right": [
+				"water_s",
+				"water_se",
+				"water_island_ne"
+			],
+			"down": [
+				"water_e",
+				"water_se",
+				"water_island_sw"
+			],
+			"up": [
+				"water",
+				"water_n",
+				"water_island_sw",
+				"water_island_se"
+			]
+		}
+	},
+	{
+		"Name": "water_island_sw",
+		"Point": {
+			"X": 3,
+			"Y": 6
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water",
+				"water_w",
+				"water_island_se",
+				"water_island_ne"
+			],
+			"right": [
+				"water_n",
+				"water_ne",
+				"water_island_se"
+			],
+			"down": [
+				"water",
+				"water_s",
+				"water_island_ne",
+				"water_island_nw"
+			],
+			"up": [
+				"water_e",
+				"water_ne",
+				"water_island_nw"
+			]
+		}
+	},
+	{
+		"Name": "water_island_se",
+		"Point": {
+			"X": 4,
+			"Y": 6
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water_n",
+				"water_nw",
+				"water_island_sw"
+			],
+			"right": [
+				"water",
+				"water_e",
+				"water_island_sw",
+				"water_island_nw"
+			],
+			"down": [
+				"water",
+				"water_s",
+				"water_island_ne",
+				"water_island_nw"
+			],
+			"up": [
+				"water_w",
+				"water_nw",
+				"water_island_ne"
+			]
+		}
+	},
+	{
+		"Name": "water_island_ne",
+		"Point": {
+			"X": 4,
+			"Y": 5
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"water_s",
+				"water_sw",
+				"water_island_nw"
+			],
+			"right": [
+				"water",
+				"water_e",
+				"water_island_sw",
+				"water_island_nw"
+			],
+			"down": [
+				"water_w",
+				"water_sw",
+				"water_island_se"
+			],
+			"up": [
+				"water",
+				"water_n",
+				"water_island_sw",
+				"water_island_se"
+			]
+		}
+	},
+	{
+		"Name": "sand",
+		"Point": {
+			"X": 5,
+			"Y": 3
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"sand",
+				"dirt"
+			],
+			"right": [
+				"sand",
+				"dirt"
+			],
+			"down": [
+				"sand",
+				"dirt"
+			],
+			"up": [
+				"sand",
+				"dirt"
+			]
+		}
+	},
+	{
+		"Name": "dirt",
+		"Point": {
+			"X": 1,
+			"Y": 1
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"sand",
+				"dirt",
+				"grass"
+			],
+			"right": [
+				"sand",
+				"dirt",
+				"grass"
+			],
+			"down": [
+				"sand",
+				"dirt",
+				"grass"
+			],
+			"up": [
+				"sand",
+				"dirt",
+				"grass"
+			]
+		}
+	},
+	{
+		"Name": "grass",
+		"Point": {
+			"X": 4,
+			"Y": 0
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [
+				"grass",
+				"dirt",
+				"water_se",
+				"water_e",
+				"water_ne"
+			],
+			"right": [
+				"grass",
+				"dirt",
+				"water_nw",
+				"water_w",
+				"water_sw"
+			],
+			"down": [
+				"grass",
+				"dirt",
+				"water_n",
+				"water_nw",
+				"water_ne"
+			],
+			"up": [
+				"grass",
+				"dirt",
+				"water_sw",
+				"water_s",
+				"water_se"
+			]
+		}
+	},
+	{
+		"Name": "Error",
+		"Point": {
+			"X": 6,
+			"Y": 11
+		},
+		"Weight": 1,
+		"Neighber": {
+			"left": [],
+			"right": [],
+			"down": [],
+			"up": []
+		}
+	}
+]
